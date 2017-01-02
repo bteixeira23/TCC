@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>PPI</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <!-- Bootstrap -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+      <style type="text/css">
+       .carousel-inner > .item > img,
+         .carousel-inner > .item > a > img {
+         width: 60%;
+         margin: auto;
+         margin-left: 23%;
+         }
+         h1{
+         margin-left: 29%;
+         text-align: center;
+         width: 42%;
+         background-color: #e8e8e8;
+         }
+         #termo{
+         margin-top: 0,3%;
+         margin-left: 20%;
+         margin-right: 27%;
+         width: 800px;
+         height: 480px;
+         padding: 10px;
+         overflow: auto;
+         border: 3px groove #CCCCCC;
+         background: #F1F1F1;
+         }
+         p {text-align: justify;}
+         ul.inside {
+         list-style-position: inside;
+         }
+         ul.outside {
+         list-style-position: outside;
+         }
+         html, body {height: 100%;}
+         * html #tudo {height: 100%;}
+         #tudo {margin: 0 auto;text-align: left;position: relative;min-height: 100%;     margin-right: 10%;}
+         #menu {padding-left: 30%; margin-right: 250px;background-color: white; width: 100%} 
+         #cabecalho {}
+         .icon-bar {background-color: black;}
+         .int {margin-top: 70px; margin-left: 100px; margin-right: 100px;}
+         .painel1 {margin-left: 150px; margin-right: 70px;}
+         #img{margin-top: 5%; margin-left: 20%; }
+         #rodape {position: absolute;bottom: -30px;height: 35px;line-height: 35px;text-align: center;margin-left: 30%;}
+      </style>
+   </head>
+   <body>
+      <div id="tudo">
+      <nav class="navbar navbar-fixed-top" id = "menu" >
+         <div class="container" id = "cabecalho">
+            <div class="collapse navbar-collapse"  >
+               <ul class="nav navbar-nav">
+                  <li role="presentation" class="active"><a href="index.html">Home</a></li>
+                  <li role="presentation"><a href="recepcao.html">Recepção</a></li>
+                  <li role="presentation" class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Comercial <span class="caret"></span>
+                     </a>
+                     <ul class="dropdown-menu nav navbar-nav">
+                        <li role="presentation"><a href="setorcomercial.html">Importância da Área Comercial</a>
+                        </li>
+                        <li role="presentation"><a href="setorcomercial.html#gatilho">Gatilhos mentais</a></li>
+                        <li role="presentation" style="width: 100%"><a href="setorcomercial.html#preze">Preze pela excelência</a></li>
+                        <li role="presentation"><a href="10mandamentos.html">10 Mandamentos do Setor</a></li>
+                     </ul>
+                  </li>
+                  <li role="presentation" class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                     RH <span class="caret"></span>
+                     </a>
+                     <ul class="dropdown-menu nav navbar-nav">
+                        <li role="presentation"><a href="rh.html#ajax">Recursos Humanos</a></li>
+                        <li role="presentation"><a href="rh.html#a]">Principais funções </a></li>
+                        <li role="presentation"><a href="rh.html#ds">Divisão para o Sucesso</a> </li>
+                        </li>
+                     </ul>
+                   <li role="presentation"><a href="ti.html">TI</a></li>
+                  <li role="presentation"><a href="contato.html">Contato</a></li>
+               </ul>
+            </div>
+            <!-- Menu do cabeçalho para celular-->
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#cabecalho" aria-expanded="false" aria-controls="cabecalho">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+            </div>
+         </div>
+      </nav>
+      <div class="container">
+         <br>
+         <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+               <li data-target="#myCarousel" data-slide-to="1"></li>
+               <li data-target="#myCarousel" data-slide-to="2"></li>
+               <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+               <div class="item active">
+                   <img src="imagens/comercialw.jpg" alt="comercial" width="460" height="345"></a>
+               </div>
+               <div class="item">
+                    <img src="imagens/rh1.jpg" alt="rh" width="460"  height="345"></a>
+               </div>
+               <div class="item">
+                   <img src="imagens/ti.jpg" alt="TI" width="460" height="345"></a>
+               </div>
+               <div class="item">
+                  <img src="imagens/recepcaot.jpg" alt="Recepção" width="460" height="345"></a>
+               </div>
+            </div>
+         </div>
+      </div>
+     <!-- Panel com os informativos e metas-->
+      <div class=" panel-default int painel1">
+      <div class="row">
+      <div class="col-sm-4">
+         <table border="0" cellpadding="0"  cellspacing="1" style="border:solid #007acc 1px;">
+            <tr>
+               <td bgcolor="#007acc" height="18" style="color: #ffffff">
+                  <center><b>Informativo</b></center>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <marquee id="scroller" scrollamount="3" direction="up" onMouseOver="scroller.scrollAmount='1';scroller.style.cursor='default'" onMouseOut="scroller.scrollAmount='3'" style="width:300px; height:500px">
+                     <center>
+                        <!-- Noticia 01 -->
+                        <table border="0" cellpadding="0"  cellspacing="1" width="300px">
+                           <tr>
+                              <td height="18" class="title">
+                                 <div>
+                                    <p class="alert-success">Novidades</p>
+                                 </div>
+                                 <hr align="left" size="1" color="#000" width="100%">
+                                 <div>
+                                    <h5>Nova mesa de sinuca para os funcionarios</h5>
+                                    <h5>Data: 23/11/2016</h5>
+                                 </div>
+                                 <br>
+                                 <div>
+                                    <h5>Novo cartão Alimentação</h5>
+                                    <h5>Data: 21/10/2016</h5>
+                                 </div>
+                                 <div>
+                                    <br>
+                                    <h5>Sorteio de um notebook para os funcionarios</h5>
+                                    <h5>Data: 11/08/2016</h5>
+                                 </div>
+                                 <div>
+                                    <hr align="left" size="1" color="#000" width="100%">
+                                    <hr align="left" size="1" color="#000" width="100%">
+                                    <p class="alert-danger">Avisos</p>
+                                 </div>
+                                 <hr align="left" size="1" color="#000" width="100%">
+                                 <div>
+                                    <h5>Nova gerencia na equipe de desenvolvimento</h5>
+                                    <h5>Data: 13/11/2016</h5>
+                                 </div>
+                                 <br>
+                                 <div>
+                                    <h5>Ganhamos o Premio como melhor Soluções</h5>
+                                    <h5>Data: 22/10/2016</h5>
+                                 </div>
+                              </td>
+                           </tr>
+                        </table>
+                     </center>
+                  </marquee>
+               </td>
+            </tr>
+         </table>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-7">
+               <h3>Missão</h3>
+               Identificar e desenvolver competências visando alavancar resultados de forma compatível com os valores e princípios de nossos clientes. Acreditamos que pessoas certas com valores compatíveis aos da empresa, geram engajamento e efetividade em sua entrega.</p>
+            </div>
+            <br>
+            <div class="col-sm-7">
+               <h3>Visão</h3>
+               <p>Manter reputação idônea e estabelecer relações de longo prazo baseadas em ética, confiança mútua, integridade, respeito e transparência com nossos colaboradores, clientes, fornecedores, parceiros e a comunidade.</p>
+            </div>
+            <div class="col-sm-7">
+               <h3>Valores</h3>
+               <p>Ética, respeito à diversidade, transparência, perenidade nas relações e busca de objetivos compartilhados e sinérgicos.</p>
+            </div>
+         </div>
+      </div>
+      <!-- Rotapé-->
+      <div id="rodape" >
+         <div class="container" >
+            <div class="navbar-collapse collapse" id="footer-body">
+               <ul class="nav navbar-nav">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Sobre</a></li>
+                  <li><a href="#">Política de privacidade</a></li>
+                  <li><a href="#">Trabalhe Conosco</a></li>
+                  <li><a href="contato.html">Contato</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
